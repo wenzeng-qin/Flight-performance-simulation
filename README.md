@@ -6,7 +6,9 @@ This project is developed out of my own interest for aircraft simulation before 
 
 ---
 
-## Verdict on the results
+## Verdict on the result
+
+Something interest I find from the result comparison during the validation stage is how the error result from my simplified assumption lead to the deviation of shape of the flight envelope.
 
 ## Project Goals
 
@@ -168,10 +170,3 @@ Possible future improvements include:
 * Comparison with CFD results
 * Integration with OpenFOAM
 
----
-
-## Project Motivation
-
-This project is intended to develop practical engineering programming skills by applying Python to a real aerospace engineering problem.
-
-The focus is on building a model from physical principles, solving it numerically, analysing the results, and understanding the limitations of the model.
