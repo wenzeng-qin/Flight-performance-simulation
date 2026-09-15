@@ -1,0 +1,5 @@
+model_name,mass,wing_area,T_0,dc_0,k,lc
+Cessna-like Light Prop,1200,16.0,4500,0.025,0.08,0.5
+Learjet Business Jet,10000,28.0,65000,0.020,0.05,0.5
+Commercial Regional Jet,28000,70.0,140000,0.018,0.045,0.5
+Fighter Jet,14000,38.0,130000,0.022,0.06,0.5
