@@ -1,11 +1,14 @@
 # Flight-performance-simulation
 Development of a Python-based aircraft flight-performance simulation tool.
 
-The aim of this project is to combine aerodynamics, physics, numerical methods and Python programming to create a simple aircraft performance simulator.
+##Claim
+This project is developed out of my own interest for aircraft simulation before taking any formal course in numerical analysis at school. The coding of the the physics engine is build under my own knowledge and research of atmospheric physics and python where I have intentionally limited the use of AI until the very last of the validation stage of the project to speed up with data collection and verifying the realism of the model. There are some interest finding here which I will discuss in detail.
+
+---
 
 ## Project Goals
 
-The simulator will progressively be developed to model:
+The simulator will be developed to model:
 
 * Atmospheric conditions at different altitudes
 * Lift and drag
@@ -128,12 +131,10 @@ aircraft-performance-simulator/
 │   ├── atmosphere.py
 │   ├── aerodynamics.py
 │   ├── propulsion.py
-│   ├── aircraft.py
 │   └── simulation.py
 │
 ├── tests/
 │
-├── notebooks/
 │
 ├── results/
 │
@@ -143,36 +144,13 @@ aircraft-performance-simulator/
 
 ---
 
-## Technologies
+## Tools
 
 * Python
 * NumPy
 * SciPy
 * Matplotlib
 * Pandas
-* pytest
-* Git/GitHub
-
----
-
-## Current Status
-
-This project is currently under development.
-
-* [ ] Atmosphere model
-* [ ] Aerodynamic model
-* [ ] Aircraft model
-* [ ] Stall-speed calculation
-* [ ] Engine model
-* [ ] Thrust/drag analysis
-* [ ] Numerical root finding
-* [ ] Climb performance
-* [ ] Flight simulation
-* [ ] Flight envelope
-* [ ] Real-aircraft validation
-* [ ] Automated testing
-
----
 
 ## Future Development
 
