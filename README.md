@@ -1,10 +1,12 @@
 # Flight-performance-simulation
 Development of a Python-based aircraft flight-performance simulation tool.
 
-##Claim
-This project is developed out of my own interest for aircraft simulation before taking any formal course in numerical analysis at school. The coding of the the physics engine is build under my own knowledge and research of atmospheric physics and python where I have intentionally limited the use of AI until the very last of the validation stage of the project to speed up with data collection and verifying the realism of the model. There are some interest finding here which I will discuss in detail.
+## Claim
+This project is developed out of my own interest for aircraft simulation before taking any formal course in numerical analysis at school. It served as a good practice in building the physics engine from first principle and using data analysis tools for automated testing. The coding of the the physics engine is build under my own knowledge and research of atmospheric physics and python where I have intentionally limited the use of AI until the very last of the validation stage of the project to speed up with data collection and verifying the realism of the model. There are some interest finding here which I will discuss in detail.
 
 ---
+
+## Verdict on the results
 
 ## Project Goals
 
