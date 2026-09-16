@@ -24,8 +24,6 @@ The simulator will be developed to model:
 * Flight envelope
 * Time-dependent flight behaviour
 
-The project will also use numerical methods to solve engineering problems that cannot easily be solved analytically.
-
 ---
 
 ## Project Development
@@ -122,11 +120,9 @@ Numerical methods will be used throughout the project, including:
 * Interpolation
 * Error analysis
 
-Where appropriate, numerical algorithms will be implemented and compared with methods provided by scientific Python libraries.
-
 ---
 
-## Software Structure
+## File Structure
 
 ```text
 aircraft-performance-simulator/
