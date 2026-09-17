@@ -1,5 +1,7 @@
 # Flight-performance-simulation
-Development of a Python-based aircraft flight-performance simulation tool.
+Development of a Python-based aircraft flight-performance simulation tool. 
+
+Sidenote: You maybe have noticed that this entire project is written in Jupyter Notebook file instead of the conventional .py script, this is because I work with mathematical and physical model most of the time, Jupyter notebook has became my main go to option for any python project and its also just easier for me to set up my environment in .pynb format for the IDE I used to program this.
 
 ## Claim
 This project is developed out of my own interest for aircraft simulation before taking any formal course in numerical analysis at school. It served as a good practice in building the physics engine from first principle and using data analysis tools for automated testing. The coding of the the physics engine is build under my own knowledge and research of atmospheric physics and python where I have intentionally limited the use of AI until the very last of the validation stage of the project to speed up with data collection and verifying the realism of the model. There are some interest finding here which I will discuss in detail.
