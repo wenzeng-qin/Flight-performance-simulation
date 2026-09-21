@@ -17,7 +17,7 @@ Something interest I find from the result comparison during the validation stage
 ![Improved rate of climb path](results/final_comparision.png)
 
 ![Flight envelope](results/flightenv.png)
-![Flight envelope 2](results/final_comparison_FE.png)
+![Flight envelope 2](results/final_comparision_FE.png)
 
 ## Project Goals
 
