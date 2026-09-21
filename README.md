@@ -12,6 +12,13 @@ This project is developed out of my own interest for aircraft simulation before 
 
 Something interest I find from the result comparison during the validation stage is how the error result from my simplified assumption lead to the deviation of shape of the flight envelope.
 
+![Rate of climb path](results/roc)
+
+![Improved rate of climb path](results/final_comparision.png)
+
+![Flight envelope](results/fightenv.png)
+![Flight envelope 2](results/final_comparison_FE)
+
 ## Project Goals
 
 The simulator will be developed to model:
