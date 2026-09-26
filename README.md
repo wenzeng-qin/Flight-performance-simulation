@@ -129,27 +129,6 @@ Numerical methods will be used throughout the project, including:
 * Interpolation
 * Error analysis
 
----
-
-## File Structure
-
-```text
-aircraft-performance-simulator/
-│
-├── src/
-│   ├── atmosphere.py
-│   ├── aerodynamics.py
-│   ├── propulsion.py
-│   └── simulation.py
-│
-├── tests/
-│
-│
-├── results/
-│
-├── README.md
-└── requirements.txt
-```
 
 ---
 
