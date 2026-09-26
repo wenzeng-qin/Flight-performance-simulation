@@ -19,6 +19,7 @@ Something interest I find from the result comparison during the validation stage
 * Dynamic drag was taken into account in both model, there isn't much difference, except the time scale and parameters are adjusted to make image two look more complete on a large scale showing convergence of the two graphs.
 
 # Flight Envelope(the more interesting part)
+
 * The complexity and axis layout of third and fourth image are difference, but they fundamental depict the same thing, namely the range of speed on each altitude.
 * The relation in fourth image is non-linear, which depicts a more accurate model in most case. In third image T_0 is held constant and rho (air density) is in the denominator, V_max will continuously increase as the air gets thinner at higher altitude. Something I have missed here; mach limit and thrust lapse rate was not taking into account.
 * Thrust lapse rate: Thrust drops significantly as the air thins out because there is less oxygen for combustion.
