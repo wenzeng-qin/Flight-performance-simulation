@@ -10,7 +10,7 @@ Sidenote: You maybe have noticed that this entire project is written in Jupyter 
 
 ---
 
-## Final verdict on the result
+## Final comment on the results
 
 Something interest I find from the result comparison during the validation stage is how the error result from my simplified assumption lead to the deviation of shape of the flight envelope; below is a side by side comparision of the model I build to a more realist model that Claude code has build for me. There are a few remark to be made here:
 
