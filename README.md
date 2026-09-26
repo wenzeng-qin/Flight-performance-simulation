@@ -14,6 +14,18 @@ Sidenote: You maybe have noticed that this entire project is written in Jupyter 
 
 Something interest I find from the result comparison during the validation stage is how the error result from my simplified assumption lead to the deviation of shape of the flight envelope; below is a side by side comparision of the model I build to a more realist model that Claude code has build for me. There are a few remark to be made here:
 
+# Rate of climb
+* The plot from first two image shows a non-linear relation on rate of climb of aircraft.
+* Dynamic drag was taken into account in both model, there isn't much difference, except the time scale and parameters are adjusted to make image two look more complete on a large scale showing convergence of the two graphs.
+
+# Flight Envelope(the more interesting part)
+* The complexity and axis layout of third and fourth image are difference, but they fundamental depict the same thing, namely the range of speed on each altitude.
+* The relation in fourth image is non-linear, which depicts a more accurate model in most case. In third image T_0 is held constant and rho (air density) is in the denominator, V_max will continuously increase as the air gets thinner at higher altitude. Something I have missed here; mach limit and thrust lapse rate was not taking into account.
+* Thrust lapse rate: Thrust drops significantly as the air thins out because there is less oxygen for combustion.
+* Mach limit and wave drag: In reality, as an aircraft approaches the speed of sound (which drops at higher, colder altitudes), the drag coefficient spikes exponentially due to compressibility and shock waves. Adding a Mach limit or making dc a function of velocity would force the maximum speed curve to bend backward at high altitudes. Hence contributing the converging plot you see in four.
+  
+* An interest fact I found was that for a typical 747 flight a converging envelope is a better model, but for rocket flight simulation, my model would make a better approximation, because rockets carry their own oxidizer and do not rely on atmospheric oxygen. Their thrust does not drop as the air gets thinner; in fact, rocket thrust slightly increases at higher altitudes due to a lack of atmospheric backpressure. Because thrust remains dominant while aerodynamic drag rapidly decreases in thin air, the vehicle's maximum speed would continually increase as it climbs, curving the graph upward.
+
 ![Rate of climb path](results/roc.png)
 
 ![Improved rate of climb path](results/final_comparision.png)
