@@ -153,7 +153,7 @@ aircraft-performance-simulator/
 
 ---
 
-## Tools
+## Requirements
 
 * Python
 * NumPy
